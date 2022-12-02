@@ -688,7 +688,7 @@ upgraderList = [
 ]
 function commitUpgrade(i,genType){
 	if(genType=='upgraderblue.png'){
-		if(floor[i-1].textre=='moveitem1RIGHT.png'){
+		if(floor[i-1].texture=='moveitem1RIGHT.png'){
 			/*
 			"if(floor[i-1].texure=='moveitem1RIGHT.png'){"
 			-Dylan A
